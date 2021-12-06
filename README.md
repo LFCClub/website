@@ -5,10 +5,14 @@
 
 View the website at http://127.0.0.1:8000/
 
-Play around with start position, scale, and rotation until the scene works. Increase timeout if necessary..
+Play around with start position, scale, and rotation until the scene works. Increase timeout if necessary.
+
+## [A-FRAME][1]
+
+The VR experience is built by importing [3D-models][3] into A-FRAME
 
 
-## [`position="x y z"`][1]
+## [`position="x y z"`][2]
 
 | Axis | Description |
 | :-:  | :----       |
@@ -16,5 +20,6 @@ Play around with start position, scale, and rotation until the scene works. Incr
 | `y`  | Negative Y axis extends down. Positive Y Axis extends up.    |
 | `z`  | Negative Z axis extends in. Positive Z Axis extends out.     |
 
-
-  [1]: https://aframe.io/docs/1.2.0/components/position.html
+  [1]: https://aframe.io/docs/1.2.0/introduction/
+  [2]: https://aframe.io/docs/1.2.0/components/position.html
+  [3]: https://aframe.io/docs/1.2.0/introduction/models.html
